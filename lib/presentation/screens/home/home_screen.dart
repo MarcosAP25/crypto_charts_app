@@ -1,4 +1,5 @@
 
+import 'package:crypto_charts_app/presentation/shared/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -7,6 +8,8 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold(
+      appBar: CustomAppBar(context: context),
+    );
   }
 }
